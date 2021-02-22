@@ -1,0 +1,30 @@
+body {
+    padding-top: 60px !important;
+}
+
+#ig-text-navbar { 
+    font-family: 'Newsreader', serif;
+    color: #333;
+    text-decoration: none !important;
+} 
+
+#img1, #img2, #img3, #img4, #img5, #img6, #img7, #img8, #img9, {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+
+
+/*.btn-outline-light:focus {
+    background: darkgray !important;
+    color: white !important;
+}
+
+.fa-th:focus {
+    color: black;
+}
+
+.fa-square:focus, .fa-square:active {
+    color: black !important;
+}*/
