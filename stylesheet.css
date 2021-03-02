@@ -12,16 +12,11 @@ body {
     object-fit: cover;
 }
 
-
-/*.btn-outline-light:focus {
-    background: darkgray !important;
-    color: white !important;
+#contenedorFotos {
+    width: 70%;
+    margin: auto;
 }
 
-.fa-th:focus {
-    color: black;
+#navBar {
+    background-color: #C4C4C4 !important;
 }
-
-.fa-square:focus, .fa-square:active {
-    color: black !important;
-}*/
