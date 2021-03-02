@@ -14,14 +14,33 @@
 </head>
 
 <body class="mb-2">
-    <div>
-        <nav class="navbar navbar-light bg-light fixed-top">
-            <!--"fixed-top" me ancla la barra al top-->
+
+    <div class="divNavBar">
+        <nav class="navbar navbar-light bg-light fixed-top" id="navBar"> <!--"fixed-top" me ancla la barra al top-->
             <a class="navbar-brand">
                 <i class="fab fa-instagram"></i>
                 <span id="ig-text-navbar">Instagram</span>
             </a>
-            <button type="button" class="btn btn-success ml-auto mr-1">Create new post</button>
+            <button type="button" class="btn btn-success ml-auto mr-1" data-toggle="modal" data-target="#miModal">Create
+                new post</button>
+            <div class="modal fade" id="miModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Understood</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="dropdown">
                 <button class="btn btn-secondary dropdown-toggle " type="button" id="dropdownMenuButton"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -38,12 +57,16 @@
         </nav>
     </div>
 
-    <div class="d-flex justify-content-center">
-        <button type="button" class="btn btn-outline-dark mr-1 mt-2"><i class="fas fa-th"></i></button>
-        <button type="button" class="btn btn-outline-dark ml-1 mt-2"><i class="fas fa-square"></i></button>
+    <div class="divContenidoGeneral">
+        <div class="d-flex justify-content-center">
+            <a href="index.html" class="btn btn-outline-dark mr-1 mt-2"><i class="fas fa-th"></i></button></a>
+            <a href="paginaDos.html" class="btn btn-outline-dark ml-1 mt-2"><i class="fas fa-square"></i></button></a>
+        </div>
+        <!--<div class="d-flex justify-content-center">
+            <button type="button" class="btn btn-outline-dark mr-1 mt-2"><i class="fas fa-th"></i></button>
+            <button type="button" class="btn btn-outline-dark ml-1 mt-2"><i class="fas fa-square"></i></button>
+        </div>-->
     </div>
-
-    
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
