@@ -1,5 +1,11 @@
 body {
     padding-top: 60px !important;
+    min-width: 300px;
+    background-color: #E6E6E6;
+}
+
+div.card-body {
+    padding: 0px;
 }
 
 #ig-text-navbar { 
@@ -8,8 +14,9 @@ body {
     text-decoration: none !important;
 } 
 
-#img1, #img2, #img3 {
+#img1, #img2, #img3, #img4, #img5, #img6, #img7, #img8, #img9 {
     object-fit: cover;
+    max-height: 500px;
 }
 
 #contenedorFotos {
@@ -20,3 +27,4 @@ body {
 #navBar {
     background-color: #C4C4C4 !important;
 }
+

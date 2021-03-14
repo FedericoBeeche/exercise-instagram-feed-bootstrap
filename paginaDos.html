@@ -9,38 +9,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@1,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="stylesheetPagina2.css">
     <title>Instagram</title>
 </head>
 
 <body class="mb-2">
 
     <div class="divNavBar">
-        <nav class="navbar navbar-light bg-light fixed-top" id="navBar"> <!--"fixed-top" me ancla la barra al top-->
+        <nav class="navbar navbar-light bg-light fixed-top" id="navBar">
+            <!--"fixed-top" me ancla la barra al top-->
             <a class="navbar-brand">
                 <i class="fab fa-instagram"></i>
                 <span id="ig-text-navbar">Instagram</span>
             </a>
-            <button type="button" class="btn btn-success ml-auto mr-1" data-toggle="modal" data-target="#miModal">Create
+            <button type="button" class="btn btn-success ml-auto mr-1" data-toggle="modal"
+                data-target="#staticBackdrop">Create
                 new post</button>
-            <div class="modal fade" id="miModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-                aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            ...
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Understood</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="dropdown">
                 <button class="btn btn-secondary dropdown-toggle " type="button" id="dropdownMenuButton"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -62,10 +46,85 @@
             <a href="index.html" class="btn btn-outline-dark mr-1 mt-2"><i class="fas fa-th"></i></button></a>
             <a href="paginaDos.html" class="btn btn-outline-dark ml-1 mt-2"><i class="fas fa-square"></i></button></a>
         </div>
-        <!--<div class="d-flex justify-content-center">
-            <button type="button" class="btn btn-outline-dark mr-1 mt-2"><i class="fas fa-th"></i></button>
-            <button type="button" class="btn btn-outline-dark ml-1 mt-2"><i class="fas fa-square"></i></button>
-        </div>-->
+        <div>
+            <div class="row"></div>
+            <div class="card mt-4" id="secondPageImgOne">
+                <img src="https://i.imgur.com/5f9NfZn.jpg" class="card-img-top img-fluid col-12 mt-3">
+                <div class="card-body">
+                    <span class="spanLikes">Leisy, Manu, Carlos, & 451 others like this</span><br>
+                    <span class="card-text">The most <strong>delicious</strong> dog you've ever seen!
+                        <strong>#omg</strong></span><br>
+                    <span class="corazon"><i class="far fa-heart"></i> Comment...</span>
+                </div>
+            </div>
+            <div class="card mt-4" id="secondPageImgTwo">
+                <img src="https://i.redd.it/zqug64uyc0sz.jpg" class="card-img-top img-fluid col-12 mt-3">
+                <div class="card-body">
+                    <span class="spanLikes">Leisy, Manu, Carlos, & 451 others like this</span><br>
+                    <span class="card-text">Haha just kidding! This other dog is as <strong>delicious</strong> as the
+                        one above! Crazy, I know!</span><br>
+                    <span class="corazon"><i class="far fa-heart"></i> Comment...</span>
+                </div>
+            </div>
+            <div class="card mt-4" id="secondPageImgThree">
+                <img src="https://i.redd.it/nzdgfjeuwvh61.jpg" class="card-img-top img-fluid col-12 mt-3">
+                <div class="card-body">
+                    <span class="spanLikes">1,203 likes</span><br>
+                    <span class="card-text">Ok... This may not be a dog but this is a very interesting mammal we got
+                        here... <strong>#llama?</strong></span><br>
+                    <span class="corazon"><i class="far fa-heart"></i> Comment...</span>
+                </div>
+            </div>
+            <div class="card mt-4" id="secondPageImgFour">
+                <img src="https://i.redd.it/c55igy5q2hi61.jpg" class="card-img-top img-fluid col-12 mt-3">
+                <div class="card-body">
+                    <span class="spanLikes">134 Likes</span><br>
+                    <span class="card-text">This is an interesting picture of a dog.</span><br>
+                    <span class="corazon"><i class="far fa-heart"></i> Comment...</span>
+                </div>
+            </div>
+            <div class="card mt-4" id="secondPageImgFive">
+                <img src="https://i.redd.it/7gxkxn50z1j61.jpg" class="card-img-top img-fluid col-12 mt-3">
+                <div class="card-body">
+                    <span class="spanLikes">68 Likes</span><br>
+                    <span class="card-text">Look at this lazy kid...</span><br>
+                    <span class="corazon"><i class="far fa-heart"></i> Comment...</span>
+                </div>
+            </div>
+            <div class="card mt-4" id="secondPageImgSix">
+                <img src="https://i.redd.it/zc67rv43gzg61.jpg" class="card-img-top img-fluid col-12 mt-3">
+                <div class="card-body">
+                    <span class="spanLikes">555 Likes</span><br>
+                    <span class="card-text">500+ likes for this?</span><br>
+                    <span class="corazon"><i class="far fa-heart"></i> Comment...</span>
+                </div>
+            </div>
+            <div class="card mt-4" id="secondPageImgSeven">
+                <img src="https://i.redd.it/worxz7hz48i61.jpg" class="card-img-top img-fluid col-12 mt-3">
+                <div class="card-body">
+                    <span class="spanLikes">0 Likes</span><br>
+                    <span class="card-text">Well... No one likes you either, cat. <br>
+                    <span class="corazon"><i class="far fa-heart"></i> Comment...</span>
+                </div>
+            </div>
+            <div class="card mt-4" id="secondPageImgEight">
+                <img src="https://i.redd.it/28ul0q2oynj51.jpg" class="card-img-top img-fluid col-12 mt-3">
+                <div class="card-body">
+                    <span class="spanLikes">695,589,741 Likes</span><br>
+                    <span class="card-text">tUrTle</span><br>
+                    <span class="corazon"><i class="far fa-heart"></i> Comment...</span>
+                </div>
+            </div>
+            <div class="card mt-4" id="secondPageImgNine">
+                <img src="https://s.abcnews.com/images/Entertainment/gty_justin_bieber_2009_ss_thg_130301_ssv.jpg" class="card-img-top img-fluid col-12 mt-3">
+                <div class="card-body">
+                    <span class="spanLikes">1,203 likes</span><br>
+                    <span class="card-text"><strong>#firstPic.</strong> Who would've thought Justin Bieber is studying to be a full-stack developer?</span><br>
+                    <span class="corazon"><i class="far fa-heart"></i> Comment...</span>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

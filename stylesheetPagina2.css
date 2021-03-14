@@ -1,0 +1,42 @@
+body {
+    padding-top: 60px !important;
+    min-width: 300px;
+    background-color: #E6E6E6;
+}
+
+#ig-text-navbar { 
+    font-family: 'Newsreader', serif;
+    color: #333;
+    text-decoration: none !important;
+} 
+
+
+#navBar {
+    background-color: #C4C4C4 !important;
+}
+
+#secondPageImgOne, #secondPageImgTwo, #secondPageImgThree, #secondPageImgFour, #secondPageImgFive, #secondPageImgSix, #secondPageImgSeven, #secondPageImgEight, #secondPageImgNine {
+    max-width: 50%;
+    max-height: auto;
+    margin: auto;
+    padding-bottom: -50px;
+}
+
+img {
+    max-height: 800px;
+    object-fit: contain;
+}
+
+.spanLikes {
+    font-weight: bold;
+}
+
+.fa-heart {
+    font-size: 25px;
+    color: lightslategrey;
+}
+
+.corazon {
+    font-size: 20px;
+    color: lightslategrey;
+}
