@@ -40,3 +40,25 @@ img {
     font-size: 20px;
     color: lightslategrey;
 }
+
+.fecha {
+    text-align: right;
+}
+
+span.col-4.fecha{
+    margin-right: 20px;
+    margin-top: 10px;
+    padding-top: 5px;
+}
+
+span.col-4{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: lightslategrey;
+    padding-top: 5px;
+}
+
+#textAreaModal {
+    width: 100%;
+}

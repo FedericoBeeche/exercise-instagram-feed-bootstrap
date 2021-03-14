@@ -28,3 +28,7 @@ div.card-body {
     background-color: #C4C4C4 !important;
 }
 
+#textAreaModal {
+    width: 100%;
+}
+
